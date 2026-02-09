@@ -1,9 +1,4 @@
 # wind-comfort-sim
-Below is a cleaned and GitHub-friendly **README.md** version.
-I removed paper-style pagination language and converted it to repository documentation structure while keeping technical rigor.
-
-You can paste this directly into `README.md`.
-
 ---
 
 # Wind-Induced Acceleration and Comfort Evaluation
