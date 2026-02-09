@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run dynamic (Step 1)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\cli\\run_dynamic.py",
+      "console": "integratedTerminal",
+      "args": ["--config", "configs\\base.yaml"]
+    }
+  ]
+}

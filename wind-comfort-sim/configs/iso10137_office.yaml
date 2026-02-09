@@ -1,0 +1,17 @@
+# Simple, editable comfort spec for horizontal (sway) comfort checks
+name: ISO10137_office
+units: milli-g
+limits:
+  - label: "Clearly comfortable"
+    max_mg: 8
+    color: "#d0f0d0"
+  - label: "Generally acceptable"
+    max_mg: 15
+    color: "#f7f7c6"
+  - label: "Potential discomfort"
+    max_mg: 25
+    color: "#ffd6b3"
+  - label: "Uncomfortable"
+    max_mg: 999
+    color: "#ffc0c0"
+window_sec: 60   # ISO often uses ~1–5 min windows; start with 60s; tune as needed
