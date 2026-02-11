@@ -64,7 +64,7 @@ Target damping:
 
 ### Mode Shapes
 
-`modes_1_2.png`
+![Mode shapes](figs/modes_1_2.png)
 
 ### Modal Properties
 
@@ -102,10 +102,10 @@ Unconditionally stable for linear systems.
 ### Example Outputs
 
 Top-floor acceleration (time history):
-`a_top_snippet.png`
+![Acc](figs/a_top_snippet.png)
 
 Power spectral density:
-`a_top_psd.png`
+![PSD](figs/a_top_psd.png)
 
 A clear spectral peak appears near the fundamental frequency → sway-dominated response.
 
