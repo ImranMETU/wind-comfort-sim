@@ -65,7 +65,7 @@ Target damping:
 ### Mode Shapes
 
 <p align="center">
-  <img src="wind-comfort-sim/figs/modes_1_2.png" width="550">
+  <img src="wind-comfort-sim/figs/modes_1_2.png" height="600", width="550">
 </p>
 
 ### Modal Properties
@@ -124,7 +124,7 @@ Acceleration is converted to **milli-g** and processed using a **60-second slidi
 Results are compared against ISO-style comfort perception bands for office occupancy.
 
 <p align="center">
-  <img src="wind-comfort-sim/figs/iso_overlay_rms" width="550">
+  <img src="wind-comfort-sim/figs/iso_overlay_rms.png" width="550">
 </p>
 
 ### Interpretation
