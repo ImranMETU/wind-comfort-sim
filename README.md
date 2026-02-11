@@ -37,13 +37,14 @@ The building is modeled as an **n-story shear structure**:
 * Lateral stiffness per story
 * Linear dynamic behavior
 
-[
-\mathbf{M} = \mathrm{diag}(m_1, m_2, ..., m_n)
-]
+$$
+\mathbf{M} = \mathrm{diag}(m_1, m_2, \dots, m_n)
+$$
 
-[
+
+$$
 \mathbf{K} = \text{banded nearest-neighbor stiffness matrix}
-]
+$$
 
 Eigenvalue analysis yields modal frequencies and mode shapes.
 
@@ -51,9 +52,9 @@ Eigenvalue analysis yields modal frequencies and mode shapes.
 
 Rayleigh damping calibrated to match the first two modal damping ratios:
 
-[
+$$
 \mathbf{C} = a_0 \mathbf{M} + a_1 \mathbf{K}
-]
+$$
 
 Target damping:
 
@@ -92,9 +93,9 @@ This captures the frequency band relevant to human perception.
 
 Dynamic response is solved using the **Newmark-β method**:
 
-[
+$$
 \gamma = \frac{1}{2}, \quad \beta = \frac{1}{4}
-]
+$$
 
 Unconditionally stable for linear systems.
 
@@ -143,15 +144,15 @@ A ±10% parametric sweep evaluates the influence of:
 
 ### Observed Trends
 
-[
+$$
 \uparrow k \Rightarrow \downarrow a
-]
-[
+$$
+$$
 \uparrow m \Rightarrow \uparrow a
-]
-[
+$$
+$$
 \uparrow \zeta \Rightarrow \downarrow a
-]
+$$
 
 Damping is the dominant mitigation parameter for wind comfort.
 
