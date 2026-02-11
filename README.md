@@ -64,7 +64,9 @@ Target damping:
 
 ### Mode Shapes
 
-![Mode shapes](figs/modes_1_2.png)
+<p align="center">
+  <img src="wind-comfort-sim/figs/modes_1_2.png" width="550">
+</p>
 
 ### Modal Properties
 
@@ -102,10 +104,14 @@ Unconditionally stable for linear systems.
 ### Example Outputs
 
 Top-floor acceleration (time history):
-![Acc](figs/a_top_snippet.png)
+<p align="center">
+  <img src="wind-comfort-sim/figs/a_top_snippet.png" width="550">
+</p>
 
 Power spectral density:
-![PSD](figs/a_top_psd.png)
+<p align="center">
+  <img src="wind-comfort-sim/figs/a_top_psd.png" width="550">
+</p>
 
 A clear spectral peak appears near the fundamental frequency → sway-dominated response.
 
@@ -117,7 +123,9 @@ Acceleration is converted to **milli-g** and processed using a **60-second slidi
 
 Results are compared against ISO-style comfort perception bands for office occupancy.
 
-`iso_overlay_rms.png`
+<p align="center">
+  <img src="wind-comfort-sim/figs/iso_overlay_rms" width="550">
+</p>
 
 ### Interpretation
 
@@ -140,7 +148,9 @@ A ±10% parametric sweep evaluates the influence of:
 * Stiffness
 * Damping
 
-`tornado_rms.png`
+<p align="center">
+  <img src="wind-comfort-sim/figs/tornado_rms.png" width="550">
+</p>
 
 ### Observed Trends
 
